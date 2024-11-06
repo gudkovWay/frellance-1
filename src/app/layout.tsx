@@ -17,12 +17,17 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Kraken Shop Monitoring",
-  description: "All what u need in one place",
+  title: "Kraken Market | Мониторинг лучшего маркетплейса",
+  description: "Перейди на лучший маркетплейс страны прямо сейчас",
+  icons: {
+    icon: "/favicon-32x32.png",
+    shortcut: "/favicon-32x32.png",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Kraken Shop | Мониторинг лучшего маркетплейса",
     description: "Закажи все что хочешь внутри 1 площадки",
-    images: "https://imgur.com/d1c1eb31-417c-4f0b-90c2-3984d9904f35",
+    images: "https://imgur.com/2cduRit",
   },
 };
 

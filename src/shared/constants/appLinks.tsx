@@ -1,6 +1,5 @@
 import { FaBiohazard, FaServicestack } from "react-icons/fa";
 import { GrContact } from "react-icons/gr";
-import { MdOutlineReviews } from "react-icons/md";
 
 export const appLinks = [
   {
@@ -12,19 +11,13 @@ export const appLinks = [
   {
     id: 1,
     href: "#faq",
-    title: "Быстрая помощь",
+    title: "Информация",
     icon: <FaServicestack />,
-  },
-  {
-    id: 2,
-    href: "#reviews",
-    title: "Отзывы",
-    icon: <MdOutlineReviews />,
   },
   {
     id: 3,
     href: "#contacts",
-    title: "Контакты",
+    title: "Перейти на маркет",
     icon: <GrContact />,
   },
 ];

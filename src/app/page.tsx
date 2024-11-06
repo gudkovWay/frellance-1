@@ -1,14 +1,14 @@
 import { Contacts } from "@/components/Contacts";
 import { FAQ } from "@/components/FAQ";
 import { Hero } from "@/components/Hero";
-import { Reviews } from "@/components/Reviews";
+import { ParticlesComponent } from "@/components/ParticlesComponent";
 
 export default function Home() {
   return (
     <main className="px-4 pb-8">
       <Hero />
+      <ParticlesComponent />
       <FAQ />
-      <Reviews />
       <Contacts />
     </main>
   );
