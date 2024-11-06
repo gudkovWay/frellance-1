@@ -25,6 +25,7 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
+    siteName: "Kraken Market",
     title: "Kraken Shop | Мониторинг лучшего маркетплейса",
     description: "Закажи все что хочешь внутри 1 площадки",
     images: "https://imgur.com/2cduRit",
