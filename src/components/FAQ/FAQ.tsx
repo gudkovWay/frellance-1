@@ -27,10 +27,13 @@ const cards = [
 
 export const FAQ = () => {
   return (
-    <div className="mt-36 flex items-center justify-center " id="#faq">
+    <div
+      className="mt-24 lg:mt-64 px-4 flex items-center justify-center "
+      id="faq"
+    >
       <div className="container">
         <div className="flex items-center justify-center flex-col gap-4 lg:gap-6">
-          <h3 className="text-3xl font-bold">
+          <h3 className="text-3xl font-bold text-center">
             Наши преимущества среди конкурентов
           </h3>
 
